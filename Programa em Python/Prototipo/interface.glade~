@@ -188,7 +188,7 @@
             <property name="can_focus">True</property>
             <property name="halign">center</property>
             <property name="valign">center</property>
-            <property name="position">161</property>
+            <property name="position">184</property>
             <child>
               <object class="GtkLayout" id="layout1">
                 <property name="visible">True</property>
@@ -242,8 +242,7 @@
                     <property name="label" translatable="yes">Painel dos Docentes</property>
                   </object>
                   <packing>
-                    <property name="x">-39</property>
-                    <property name="y">51</property>
+                    <property name="y">65</property>
                   </packing>
                 </child>
               </object>
@@ -263,80 +262,15 @@
                     <property name="visible">True</property>
                     <property name="can_focus">True</property>
                     <child>
-                      <object class="GtkLayout" id="layout3">
-                        <property name="visible">True</property>
-                        <property name="can_focus">False</property>
-                        <child>
-                          <object class="GtkEntry" id="entry4">
-                            <property name="width_request">424</property>
-                            <property name="height_request">80</property>
-                            <property name="visible">True</property>
-                            <property name="can_focus">True</property>
-                          </object>
-                          <packing>
-                            <property name="x">156</property>
-                            <property name="y">110</property>
-                          </packing>
-                        </child>
-                        <child>
-                          <object class="GtkEntry" id="entry5">
-                            <property name="width_request">427</property>
-                            <property name="height_request">80</property>
-                            <property name="visible">True</property>
-                            <property name="can_focus">True</property>
-                          </object>
-                          <packing>
-                            <property name="x">152</property>
-                            <property name="y">188</property>
-                          </packing>
-                        </child>
-                        <child>
-                          <object class="GtkEntry" id="entry6">
-                            <property name="width_request">426</property>
-                            <property name="height_request">80</property>
-                            <property name="visible">True</property>
-                            <property name="can_focus">True</property>
-                          </object>
-                          <packing>
-                            <property name="x">154</property>
-                            <property name="y">61</property>
-                          </packing>
-                        </child>
-                        <child>
-                          <object class="GtkEntry" id="entry7">
-                            <property name="width_request">426</property>
-                            <property name="height_request">80</property>
-                            <property name="visible">True</property>
-                            <property name="can_focus">True</property>
-                          </object>
-                          <packing>
-                            <property name="x">153</property>
-                            <property name="y">148</property>
-                          </packing>
-                        </child>
-                      </object>
+                      <placeholder/>
                     </child>
                     <child type="tab">
                       <object class="GtkLabel" id="label4">
                         <property name="visible">True</property>
                         <property name="can_focus">False</property>
-                        <property name="label" translatable="yes">Cadastrar Aluno</property>
+                        <property name="label" translatable="yes">Cadastrar</property>
                       </object>
                       <packing>
-                        <property name="tab_fill">False</property>
-                      </packing>
-                    </child>
-                    <child>
-                      <placeholder/>
-                    </child>
-                    <child type="tab">
-                      <object class="GtkLabel" id="label8">
-                        <property name="visible">True</property>
-                        <property name="can_focus">False</property>
-                        <property name="label" translatable="yes">Cadastrar Professor</property>
-                      </object>
-                      <packing>
-                        <property name="position">1</property>
                         <property name="tab_fill">False</property>
                       </packing>
                     </child>
@@ -350,7 +284,7 @@
                         <property name="label" translatable="yes">Desempenho</property>
                       </object>
                       <packing>
-                        <property name="position">2</property>
+                        <property name="position">1</property>
                         <property name="tab_fill">False</property>
                       </packing>
                     </child>
@@ -364,7 +298,7 @@
                         <property name="label" translatable="yes">Criar Aula</property>
                       </object>
                       <packing>
-                        <property name="position">3</property>
+                        <property name="position">2</property>
                         <property name="tab_fill">False</property>
                       </packing>
                     </child>
@@ -378,7 +312,7 @@
                         <property name="label" translatable="yes">Criar Exercício</property>
                       </object>
                       <packing>
-                        <property name="position">4</property>
+                        <property name="position">3</property>
                         <property name="tab_fill">False</property>
                       </packing>
                     </child>
